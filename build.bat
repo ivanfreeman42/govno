@@ -1,5 +1,5 @@
-del /q Build
-mkdir Build
-cd Build
-clang -std=c89 ../main.c -o main.exe
-start main.exe
+del /q build
+mkdir build
+cd build
+clang -std=c89 ../src/main.c -o program.exe
+start program.exe
